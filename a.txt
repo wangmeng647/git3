@@ -1,1 +1,6 @@
-333
+123
+impo
+import psycopg2
+
+conn = psycopg2.connect(dbname=dbtest2 user=postgres")
+cur = conn.cursor()
